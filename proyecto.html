@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Info Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🌍 Live Info Tracker</h1>
+            <p>Stay updated with real-time time, date, and location!</p>
+        </header>
+
+        <main class="main-content">
+            <div class="card">
+                <h2>⏰ Current Time</h2>
+                <p id="time" class="info">Loading time...</p>
+            </div>
+
+            <div class="card">
+                <h2>📅 Current Date</h2>
+                <p id="date" class="info">Loading date...</p>
+            </div>
+
+            <div class="card">
+                <h2>📍 Your Location</h2>
+                <p id="location-info" class="info">Fetching location...</p>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Live Info Tracker | Built with ❤️ for the modern web</p>
+        </footer>
+    </div>
+
+    <script src="scripts.js" defer></script>
+</body>
+</html>
